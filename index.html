@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Ruslan+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Rokkitt&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="preloader">
+    <div class="loader"></div>
+    <p class="for-my-boys">CIV 5 RANDOM DRAFTER, SPECIAL FOR <span class="for-my-boys__special">"ТАМ, ГДЕ ОСКОРБЛЯЮТ"</span></p>
+</div>
+<div class="wrapper">
+<form action="#" class="select-form js-select-form">
+    <h1 class="form-text">Civilization Random Drafter</h1>
+    <label class="select-label" for="count" >Players amount:</label>
+    <select name="count" id="count" class="select js-people-amount">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <option>7</option>
+        <option>8</option>
+        <option>9</option>
+        <option>10</option>
+        <option>11</option>
+        <option>12</option>
+    </select>
+    <label class="select-label" for="count-nations">How many Civilizations will one player receive?</label>
+    <select name="count" id="count-nations" class="select js-nations-amount">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+    </select>
+    <button class="randomize js-randomize">Start</button>
+</form>
+        <!--<ul class="list">-->
+            <!--<li class="list-item">-->
+                <!--<div class="list-item_player"></div>-->
+                <!--<ul class="list-of-nations">-->
+                    <!--<li class="list-of-nations_item"></li>-->
+                <!--</ul>-->
+            <!--</li>-->
+        <!--</ul>-->
+    <div class="content-container">
+        <ul class="list-of-players js-list-of-players"></ul>
+        <div class="nations-container">
+
+        </div>
+    </div>
+</div>
+<script type="module" src="js/main.js"></script>
+<script type="module" src="js/preloader.js"></script>
+</body>
+</html>
