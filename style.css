@@ -48,14 +48,14 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 25px;
+    font-size: 35px;
     white-space: nowrap;
-    font-family: 'Cinzel', serif;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
 }
 .for-my-boys__special{
-    font-family: 'Ruslan Display', cursive;
     color: #f2c902;
-    font-size: 35px;
+    font-size: 40px;
 }
 .done{
     opacity: 0;
