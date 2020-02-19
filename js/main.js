@@ -23,7 +23,7 @@ function createPlayersMarkup(playersAmount) {
     for (let i = 1; i < playersAmount + 1; i++) {
         listOfPlayers.insertAdjacentHTML(
             "beforeend",
-            `<li class="list-of-players_item"><p class="list-of-players_text">Player ${i} choose from:	</p></li>`);
+            `<li class="list-of-players_item"><p class="list-of-players_text">Player ${i}</p></li>`);
         createNationsMarkup(nationsAmt, nations);
     }
 }

@@ -173,3 +173,29 @@ body{
     margin: 0 auto;
 }
 
+@media (min-width: 320px) and (max-width: 767px) {
+    .wrapper{
+        width: 100%;
+        max-width: 767px;
+        margin: 0 auto;
+    }
+    .select-form{
+        position: static;
+        width: 100%;
+        transform: translateX(0);
+        height: 550px;
+    }
+    .list-of-players_item{
+        font-size: 14px;
+        margin-right: 15px;
+        margin-bottom: 43px;
+    }
+    .for-my-boys{
+        top: 80%;
+        font-size: 15px;
+    }
+    .for-my-boys__special{
+        font-size: 20px;
+    }
+}
+
