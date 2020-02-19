@@ -7,7 +7,7 @@ document.body.onload = function () {
             preloader.classList.add('done');
             wrapper.style.opacity = '1';
         }
-    }, 1500);
+    }, 2500);
     setTimeout(function () {
         preloader.remove();
     },5500)
