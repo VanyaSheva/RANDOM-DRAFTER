@@ -77,11 +77,10 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     width: 800px;
-    height: 500px;
     background-color: #414141;
     margin: 0 auto;
     box-shadow: 7px 10px 15px 3px rgba(0,0,0,1);
-    padding: 50px;
+    padding: 50px 50px 0;
     border-radius: 10px;
 }
 .form-text{
@@ -131,6 +130,7 @@ body{
     font-family: 'Cinzel', serif;
     color: white;
     transition: 0.2s ease;
+    margin-bottom: 50px;
 }
 .randomize:hover{
     background-color: #5e5e5e72;
@@ -183,12 +183,11 @@ body{
         position: static;
         width: 100%;
         transform: translateX(0);
-        height: 550px;
     }
     .list-of-players_item{
         font-size: 14px;
         margin-right: 15px;
-        margin-bottom: 43.5px;
+        margin-bottom: 44px;
     }
     .for-my-boys{
         top: 80%;
