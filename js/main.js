@@ -45,7 +45,7 @@ function createNationsMarkup(nationsAmount, arr) {
             arrOfNation.push(randomItem.name);
             name.textContent = randomItem.name;
             img.src = randomItem.img;
-            li.append(name, img);
+            li.append(img, name);
             listOfNations.append(li);
         }
     }
