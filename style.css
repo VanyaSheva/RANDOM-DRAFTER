@@ -21,7 +21,8 @@ body.dark-theme {
 .toolbar {
     position: fixed;
     top: 20px;
-    right: 50px;
+    left: 50%;
+    transform: translateX(-50%);
     display: flex;
     justify-content: flex-end;
 }
@@ -327,8 +328,20 @@ body.dark-theme {
     }
     .select-form{
         position: static;
-        width: 100%;
+        width: 70%;
         transform: translateX(0);
     }
 }
 
+
+/*@media (min-width: 1200px){*/
+    /*.wrapper{*/
+        /*width: 100%;*/
+        /*max-width: 1200px;*/
+        /*margin: 0 auto;*/
+    /*}*/
+    /*.select-form{*/
+        /*position: fixed;*/
+        /*top:120px;*/
+        /*left: 50%;*/
+    /*}*/
